@@ -1,0 +1,69 @@
+body{
+    font-family: 'Lato', sans-serif; /*Google fonts*/
+    font-weight: 300; /*Google fonts*/
+}
+
+h2{
+    font-family: 'Yusei Magic', sans-serif; /*Google fonts*/
+}
+
+.container{
+    margin: 0 auto; /* 0= arriba y abajo - auto= a la izquierda y a la derecha*/
+    width: 90%; /*Le indicas que ancho queres que ocupe el contenedor section en toda tu pagina*/
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: #e8eae6;
+    color: #333;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #cdd0cb;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.precio{
+    font-size: 50px;
+    color: #51c2d5;
+}
+.btn-precio{
+    background: #ff577f;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+.btn-precio:hover{
+    background: blue;
+}
+.btn-precio:active{
+    background: red;
+}
+
+@media (max-width: 1070px){
+
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
